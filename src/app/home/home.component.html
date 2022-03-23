@@ -1,0 +1,14 @@
+<form>
+  <div class="form-group">
+    <input
+      type="text"
+      id="address"
+      name="address"
+      placeholder="Enter eth address"
+      [(ngModel)]=address
+    />
+  </div>
+  <button type="submit" class="btn btn-primary" (click)="submitAddress()">
+    submit
+  </button>
+</form>

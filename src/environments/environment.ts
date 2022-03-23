@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  infura_url: 'https://mainnet.infura.io/v3/581a87de075a47b996840bc292cb22f8',
 };
 
 /*
